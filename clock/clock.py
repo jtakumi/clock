@@ -3,14 +3,14 @@ from datetime import datetime
 
 def today():
     #年月日
-    today=datetime.date.today()
-    d1=today.strftime("%y_%m_%d")
-    return d1
+    today=datetime.now()
+    d1=today.strftime("20%y年%m月%d日")
+    print(d1)
 
 def now():
     #時分秒
-    now=datetime.date.today()
-    ns=now.strftime("%H h %M m %S s")
-    return ns
+    now=datetime.now()
+    ns=now.strftime("%H時%M分%S秒")
+    print(ns)
 
 
