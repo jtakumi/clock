@@ -5,7 +5,7 @@ import time
 def today():
     #年月日
     today=datetime.now()
-    d1=today.strftime("20%y / %m / %d ")
+    d1=today.strftime("20%y/%m/%d")
     return d1
 
 def now():
